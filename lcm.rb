@@ -9,6 +9,8 @@ require_relative 'credentials'
 # Projects are set in the credentials file but in the future will be customizable through the settings page
 VALID_PROJECTS = [MASTERPROJECT1, MASTERPROJECT2]
 
+
+
 app_state = {
   segments: []
 }

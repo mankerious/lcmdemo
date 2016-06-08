@@ -1,5 +1,9 @@
-# No password or token included in this file. Those are set in the production environment variables directly for security
+# No password or token included in this file. Those are set as production runtime environment variables directly for security
+
+
 LOGIN = 'lcmdemoadmin@gooddata.com'
+PASSWORD = ENV['PASSWORD'] 
+TOKEN = ENV['TOKEN'] 
 DOMAIN = 'lcmdemo'
 FQDN = 'https://secure.gooddata.com'
 HOSTNAME = 'secure.gooddata.com'
